@@ -1,0 +1,89 @@
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  background-color: rgb(52, 137, 211);
+
+}
+  
+
+  
+.header{
+ background-color: gray;
+ text-align: center;
+
+}
+
+.logo{
+    position: absolute; 
+    top: 10px;
+    left: 15px;
+}
+
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  input[type=text], select, textarea {
+    width: 50%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-size: larger;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  #BackButton{
+    color: yellow;
+  }
+  #SkillChoice1{
+    font-size: 20px;
+
+  }
+  #SkillChoice2{
+    font-size: 20px;
+  }
+  #Weakness{
+    font-size: 20px;
+  }
+
+a{
+  color: white;
+ border:solid white 1px; /*do you like the white border or the black border?*/
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-left: 10px;
+  text-align: center;
+  background-color: rgb(52, 137, 211);
+}
+.Firstpage{
+  padding-left: 10px;
+
+}
+.options{
+  padding-left: 10px;
+}
+#Reset{
+  color: yellow;
+  
+}
+.AfterTest{
+  padding-left: 10px;
+}
+#TenQuestions{
+  padding-left: 10px;
+}
